@@ -1,0 +1,53 @@
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-image: url(../image/imagenFondo3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+.headerContainer {
+  backdrop-filter: blur(5px);
+  background-color: rgba(158, 255, 255, 0.15);
+  padding: 10px 0px 1px 0px;
+}
+.headerContainer .ulHeader {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+.headerContainer .ulHeader li {
+  color: black;
+  text-align: center;
+}
+
+.perfil {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 50px;
+  backdrop-filter: blur(10px);
+  background-color: rgba(196, 196, 196, 0.15);
+  max-width: 700px;
+  max-height: 700px;
+  border-radius: 30px;
+  box-shadow: 2px 2px 2px 2px;
+}
+.perfil:hover {
+  transition: all 2s;
+  transform: scale(2px);
+}
+.perfil .img {
+  border-radius: 50%;
+  padding: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */

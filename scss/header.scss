@@ -1,0 +1,14 @@
+.headerContainer{
+    backdrop-filter: blur(5px);
+    background-color: rgba(158, 255, 255, 0.15);
+    padding: 10px 0px 01px 0px;
+            .ulHeader{
+                display: flex;
+                justify-content: center;
+                justify-content: space-around;
+                li{
+                    color: black;
+                    text-align: center; 
+                }
+            }
+}

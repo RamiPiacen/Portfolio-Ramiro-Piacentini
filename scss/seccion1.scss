@@ -1,0 +1,20 @@
+  .perfil {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 50px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(196, 196, 196, 0.15);
+    max-width: 700px;
+    max-height: 700px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px 2px;
+        &:hover{
+          transition: all 2s;
+          transform: scale(2px);
+        }
+      .img {
+        border-radius: 50%;
+        padding: 30px;
+    }
+  }
+
